@@ -1,0 +1,73 @@
+   /* ============== Properties Related to Top Picture ============== */
+
+/* .topPicture {
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 0;
+    margin: auto;
+    border: 0px;
+    margin-bottom: -30%;
+    display: block;
+ } */
+   
+   
+   /* Universal Selector trick that Alan taught me to fix a weird bug I was having with borders */
+
+   html {
+    scroll-padding-top: 120px;
+    scroll-behavior: smooth;
+    }
+
+    #content {
+    padding-top: 2em;
+    color:white;
+    }
+
+    #content table {
+    color: white;
+    border: 5px white solid;
+    margin-top: 1em;
+    /* max-width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-spacing: 0;
+    }
+
+    #content th, #content tr, #content td {
+    padding: 30px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    color: white;
+    border: 5px white solid;
+    text-align: center;
+    }
+        
+    #content a {
+        color:inherit;
+    }
+
+
+    .TLDR {
+        background-color: #3FA442;
+        padding: 10px;
+        border-radius: 25px;
+        text-align: center;
+        font-size:45px;
+        margin-top: 0.5em;
+        
+    }
+
+
+    .lists {
+        width: 80%;
+    }
+
+    .indentedList {
+        padding-left: 2em;
+    }
+
+    .doubleIndentedList {
+        padding-left: 4em;
+    }
