@@ -24,9 +24,9 @@
       color:white;
    }
    
-    #content table {
+    table.bigText {
        color: white;
-       border: 5px white solid;
+       border: 5px #3FA442 solid;
        margin-top: 1em;
        /* max-width: 80%; */
        margin-left: auto;
@@ -35,16 +35,16 @@
        border-spacing: 0;
    }
    
-    #content th, #content tr, #content td {
+    table.bigText th, table.bigText tr, table.bigText td {
        padding: 30px;
        padding-right: 0.5em;
        padding-left: 0.5em;
        color: white;
-       border: 5px white solid;
+       border: 5px #3FA442 solid;
        text-align: center;
    }
           
-    #content a {
+   table.bigText a {
         color:inherit;
    }
 

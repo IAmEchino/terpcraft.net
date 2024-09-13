@@ -42,17 +42,19 @@ html {
 #headerContainer {
    display: block;
    position: sticky;
-   z-index: 2;
+   z-index: 1000;
    top: 0;
    left: 0;
    overflow: hidden; 
    width:100%;
    height: 120px;
-   background-color:white;
+   background-color: #181A1B;
    text-align: center;
    align-content: center;
    padding-top:10px;
    /* border:5px dotted black; */
+
+   /* sectionHeading stickyHeading  */
 }
 
 #logo img {
@@ -91,6 +93,10 @@ html {
    margin-top: 1.2em;
 }
 
+.navButtons .omegaText, #endButton .omegaText, #motto {
+   color: white;
+}
+
 #endButton {
   /* float: left; */
   /* margin-top: 1.5em; */
@@ -124,19 +130,19 @@ html {
 /* ============== Properties Related to Main Content ============== */
 
 body {
-   background-color: black;
+   background-color: white;
    width: 100%;
    height: 100%;
 }
 
 #contentBackground {
-   display:block;
-   position: relative;
-   z-index: 0;
+   display:flexbox;
+   /* position: absolute; */
+   z-index: 1;
    background-color: black;
-   padding-top: 30px;
-   padding-bottom: 30px;
-   height:100%
+   /* padding-top: 30px;
+   padding-bottom: 30px; */
+   width:100%;
    /* border: dashed red; */
 }
 
@@ -161,7 +167,13 @@ p {
     line-height: 1.25;
     margin-top: 0.5em;
     font-size: 24px;
-    /* border:red dotted 5px; */
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    background-color: black;
+    margin:auto;
+    /* border: dashed red; */
 }
 
 #discordURL {
@@ -170,6 +182,10 @@ p {
     color:#3FA442;
     word-wrap: break-word;
     /* border:greenyellow dotted 5px; */
+}
+
+.background {
+   background-color: black;
 }
 
 .omegaText {
@@ -251,7 +267,6 @@ details[open] > div {
    color:#3FA442;
    text-align: center;
    margin-top: 40px;
-   z-index: 2;
 }
 
 .stickyHeading {
@@ -262,6 +277,7 @@ details[open] > div {
    height: 100px;
    margin-left: 50%;
    transform: translateX(-50%);
+   z-index: 5;
 }
 
 .stickyHeading h1 {
