@@ -19,12 +19,12 @@
         scroll-behavior: smooth;
    }
    
-    #content {
+    .content {
       padding-top: 2em;
       color:white;
    }
    
-    table.bigText {
+    table.bigText, table.mediumText {
        color: white;
        border: 5px #3FA442 solid;
        margin-top: 1em;
@@ -35,7 +35,12 @@
        border-spacing: 0;
    }
    
-    table.bigText th, table.bigText tr, table.bigText td {
+    table.bigText th,
+    table.bigText tr,
+    table.bigText td,
+    table.mediumText th,
+    table.mediumText tr,
+    table.mediumText td {
        padding: 30px;
        padding-right: 0.5em;
        padding-left: 0.5em;
@@ -44,8 +49,8 @@
        text-align: center;
    }
           
-   table.bigText a {
-        color:inherit;
+   table.bigText a, table.mediumText a, li a  {
+        color:#3FA442;
    }
 
 
@@ -56,9 +61,17 @@
         text-align: center;
         font-size:45px;
         margin-top: 0.5em;
-        
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
    }
 
+   #staffExceptions {
+        width:40%;
+        /* margin: auto 0; */
+        margin-left: auto;
+        margin-right: auto;
+   }
 
     .lists {
         width: 80%;
@@ -66,6 +79,8 @@
 
     .indentedList {
         padding-left: 2em;
+        width:40%;
+        margin: auto;
    }
 
     .doubleIndentedList {
