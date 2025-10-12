@@ -26,7 +26,7 @@
    
     table.bigText, table.mediumText {
        color: white;
-       border: 5px #3FA442 solid;
+       border: 5px #C52227 solid;
        margin-top: 1em;
        /* max-width: 80%; */
        margin-left: auto;
@@ -45,17 +45,17 @@
        padding-right: 0.5em;
        padding-left: 0.5em;
        color: white;
-       border: 5px #3FA442 solid;
+       border: 5px #C52227 solid;
        text-align: center;
    }
           
    table.bigText a, table.mediumText a, li a  {
-        color:#3FA442;
+        color:#EAAB00;
    }
 
 
     .TLDR {
-        background-color: #3FA442;
+        background-color: #C52227;
         padding: 10px;
         border-radius: 25px;
         text-align: center;

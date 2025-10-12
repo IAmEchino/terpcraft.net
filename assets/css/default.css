@@ -31,7 +31,7 @@ html {
    z-index: 0;
    margin: auto;
    border: 0px;
-   margin-bottom: -20%;
+   margin-bottom: -10%;
    display: block;
 }
 
@@ -48,7 +48,7 @@ html {
    left: 0;
    overflow: hidden; 
    width: 100%;
-   height: 120px;
+   height: 12%;
    background-color: #181A1B;
    text-align: center;
    align-content: center;
@@ -83,7 +83,7 @@ html {
 .navButtons {
    /* float: left; */
    /* margin-top: 1.5em; */
-   border-left: 5px solid #3FA442;
+   border-left: 5px solid #C52227;
    padding-left: 20px;
    padding-right: 20px;
    margin: 0 auto;
@@ -101,8 +101,8 @@ html {
 #endButton {
   /* float: left; */
   /* margin-top: 1.5em; */
-  border-left: 5px solid #3FA442;
-  border-right: 5px solid #3FA442;
+  border-left: 5px solid #C52227;
+  border-right: 5px solid #C52227;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -180,7 +180,6 @@ p {
 #discordURL {
     display: block;
     font-size: 2em;
-    color:#3FA442;
     word-wrap: break-word;
     /* border:greenyellow dotted 5px; */
 }
@@ -214,15 +213,15 @@ p {
 }
 
 .Virginia {
-   color: #00297B;
+   color: #0055ff;
 }
 
 .Maryland {
    color: #EAAB00;
 }
 
-.TerpCraft {
-   color:#3FA442;
+.UMCPGMC {
+   color:#C52227;
 }
 
 .boldText {
@@ -232,7 +231,7 @@ p {
 
 summary {
    color: white;
-   background-color: #3FA442;
+   background-color: #C52227;
    padding: 25px;
    border-radius: 25px;
    margin: auto 0;
@@ -267,9 +266,9 @@ details[open] > div {
 }
 
 .sectionHeading * {
-   color:#3FA442;
+   color:#EAAB00;
    text-align: center;
-   margin-top: 40px;
+   padding-top: 40px;
 }
 
 .stickyHeading {
@@ -347,7 +346,7 @@ dd {
 #dynamicMap {
    margin: auto;
    width: 100%;
-   /* height: 100%; */
+   height: 87.5%;
    display: block;
    position: absolute;
 }
@@ -356,3 +355,9 @@ dd {
    width: 100%;
    height: 100%;
 } */
+
+.linkContainer {
+   width:40%;
+   margin:auto;
+   margin-top: 2em;
+}
